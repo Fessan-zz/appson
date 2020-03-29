@@ -1,0 +1,26 @@
+{
+  "name": "appson",
+  "version": "1.0.0",
+  "description": "appsson app",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fessan/appson.git"
+  },
+  "keywords": [
+    "appson",
+    "app"
+  ],
+  "author": "Fessan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Fessan/appson/issues"
+  },
+  "homepage": "https://github.com/Fessan/appson#readme",
+  "dependencies": {
+    "bootstrap": "^4.4.1"
+  }
+}
