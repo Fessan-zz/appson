@@ -1,0 +1,133 @@
+.navbar{
+  padding-top: 0px !important;
+  margin: 0px !important;
+  max-width: 1920px !important;
+  width: 100% !important;
+  margin: 0 auto !important;
+}
+
+.menu{
+  background-image: url('../assets/img/shape_1.jpg');
+  background-size: cover;
+  background-position:  top center;
+}
+
+.navbar-brand{
+  padding-top: 0 !important;
+  margin: 0px !important;
+
+}
+
+.nav-item{
+  padding-left: 45px;
+  font-family: 'quicksandMeduim';
+  font-weight: 500;
+}
+
+.nav-link:hover{
+  color: #0f7bff !important;
+}
+
+.btn-singUp{
+  padding: 10px 40px;
+  width: 100%;
+  margin-left: 45px;
+  font-family: 'quicksandMeduim';
+  color: #ffffff !important;
+  font-weight: 500;
+  border-radius: 25px;
+  background-color: #0063dd !important;
+}
+
+.navbar-nav{
+  align-items: center;
+}
+
+.nav-desc > h1 {
+  font-family: 'quicksandBold';
+  margin-top: 100px;
+  margin-bottom: 32px;
+  color: #333333 !important;
+}
+.nav-desc > p{
+  text-align: center;
+}
+
+
+
+.btn_active{
+  color: #ffffff;
+  font-family: 'quicksandBold';
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 25px;
+  background-color: #0f7bff;
+  padding: 10px 35px;
+  margin-right: 10px;
+  margin-top: 15px;
+
+}
+.btn_active:hover{
+  color: #ffffff !important;
+  text-decoration: underline;
+}
+
+.btn_inactive{
+  color: #0f7bff;
+  font-family: 'quicksandBold';
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 25px;
+  border: 2px solid #0f7bff;
+  padding: 10px 35px;
+  margin-left: 10px;
+  margin-top: 15px;
+
+
+}
+.btn_inactive:hover{
+  color: #0f7bff !important;
+  text-decoration: underline;
+}
+/*   main    */
+
+
+
+.main_cards{
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.main_cards >div >img{
+  width: 70px;
+  height: 70px;
+}
+
+
+.main_cards > div > div{
+  box-shadow: 0 0 25px #f0f0f0;
+  border-radius: 5px; 
+}
+
+.img_mess{
+  max-width: 603px;
+  max-height: 610px;
+  width: 100%;
+  height: 100%;
+}
+
+.mess_h{
+  color: #333333;
+  color: #333333;
+  font-family: 'quicksandMeduim';
+  font-size: 32px;
+  line-height: 36px;
+}
+
+.mess_a{
+  color: #0f7bff;
+  font-family: 'quicksandMeduim';
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 27px;
+}

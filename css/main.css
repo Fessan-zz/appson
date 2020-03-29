@@ -1,5 +1,23 @@
 @import 'font.css';
 
-body{
-  font-family: 'quicksandRegular';
+* {
+  margin: 0;
+  padding: 0;
 }
+
+header{
+  background-color: #f5fcfd !important;
+}
+
+body{
+  font-family: 'quicksandRegular' !important;
+  color: #929292 !important;
+}
+
+.bg-grey{
+  background-color: #f5fcfd !important;
+}
+.bg-white{
+  background-color: #ffffff !important;
+}
+
