@@ -20,4 +20,21 @@ body{
 .bg-white{
   background-color: #ffffff !important;
 }
+.bg-blue{
+  background-color: #0f7bff !important;
+}
+
+.h{
+  color: #333333;
+  font-family: 'quicksandMeduim';
+}
+
+.blue{
+  color: #0f7bff;
+}
+
+.white{
+  color: #ffffff;
+}
+
 

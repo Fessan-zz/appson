@@ -56,39 +56,27 @@
 
 
 .btn_active{
-  color: #ffffff;
-  font-family: 'quicksandBold';
-  font-size: 16px;
-  font-weight: 700;
-  border-radius: 25px;
-  background-color: #0f7bff;
-  padding: 10px 35px;
-  margin-right: 10px;
-  margin-top: 15px;
-
-}
-.btn_active:hover{
-  color: #ffffff !important;
-  text-decoration: underline;
-}
-
-.btn_inactive{
   color: #0f7bff;
   font-family: 'quicksandBold';
   font-size: 16px;
   font-weight: 700;
   border-radius: 25px;
   border: 2px solid #0f7bff;
+  background-color: #ffffff;
+
   padding: 10px 35px;
-  margin-left: 10px;
+  margin-right: 10px;
   margin-top: 15px;
 
+}
 
-}
-.btn_inactive:hover{
-  color: #0f7bff !important;
-  text-decoration: underline;
-}
+
+.btn_active:hover{
+  color: #ffffff;
+  font-family: 'quicksandBold';
+  background-color: #0f7bff;
+  }
+
 /*   main    */
 
 
@@ -118,7 +106,6 @@
 
 .mess_h{
   color: #333333;
-  color: #333333;
   font-family: 'quicksandMeduim';
   font-size: 32px;
   line-height: 36px;
@@ -131,3 +118,239 @@
   font-weight: 500;
   line-height: 27px;
 }
+
+.howWork_desc{
+  padding-top: 150px;
+  
+}
+
+
+.howWork_desc > h2{
+  color: #333333;
+  font-family: 'quicksandMeduim';
+}
+.howWork_cards{
+  position: relative;
+  z-index: 100;
+}
+.howWork_cards > {
+  position: relative;
+  z-index: 0;
+}
+
+
+.howWork_cards:after{
+  content: "";
+  height: 2px;
+  width: 58%;
+  background-color:#0f7bff;
+  position: absolute;
+  top: 24%;
+  z-index: 400;
+}
+
+
+
+.howWork_cards > div img{
+  width: 100px;
+  height: 100px;
+  z-index: 999;
+}
+
+
+.btn__price{
+  border-radius: 0 25px 25px 0;
+  border: 2px solid #0f7bff;
+  color: #0f7bff;
+  font-family:'quicksandBold';
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 21px;
+  padding-right: 20px;
+  max-width: 150px;
+  width: 100%;
+}
+
+.btn__s{
+  max-width: 300px;
+  width: 100%;
+}
+
+.btn__price_left{
+  border-radius: 25px 0 0 25px;
+}
+
+.btn__price:hover{
+  background-color: #0f7bff;
+  color: #ffffff;
+  font-family:'quicksandBold';
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 21px;
+}
+
+.price__card{
+  box-shadow: 0 0 68px rgba(165, 165, 165, 0.25);
+  border-radius: 5px;
+}
+
+
+.price__card img{
+  width: 100px;
+  height: 100px;
+}
+
+.price__baks{
+  color: #0f7bff;
+  font-family: 'quicksandMeduim';
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+.price__baks span{
+  font-size: 16px;
+}
+  
+.people{
+  max-width: 1920px;
+  width: 100%;
+}
+
+.people__img img{
+  width: 752px;
+  height: 608px;
+}
+
+.people_content{
+  max-width: 360px;
+  width: 100%;
+  box-shadow: 0 0 25px rgba(165, 165, 165, 0.1);
+  border-radius: 5px;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.people_content i{
+  position: absolute;
+  top: 18px;
+  right: 18px;
+}
+
+.people__line_activ{
+  width: 30px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #0f7bff;
+  cursor: pointer;
+}
+
+.people__line_inactiv{
+  width: 20px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #d4d4d4;
+  cursor: pointer;
+}
+
+.blog_left-img{
+  width: 555px;
+  height: 285px;
+}
+
+.blog_right_item img{
+  width: 165px; 
+  height: 120px;
+}
+
+.free__right{
+  margin-top: 150px;
+}
+
+.free__right button{
+  color: #ffffff;
+  border-radius: 5px;
+  background-color: #0f7bff;
+  padding: 15px 35px;
+}
+.free__right button:hover{
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+
+.subfooter{
+  background: #0f7bff;
+  color: #ffffff;
+  padding: 100px;
+  border-bottom: 1px solid white;
+}
+
+.subfooter h2{
+  font-family: 'quicksandBold';
+}
+
+.subscribe {
+  background: white;
+  border: white 1px solid;
+  color: #0f7bff;
+  font-weight: 600;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  padding: 15px;
+  font-family: 'quicksandBold';
+  margin-left: -5px;
+}
+
+.email {
+  font-family:'quicksandMeduim' ;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border: 1px solid white;
+  background: #0f7bff;
+  color: white;
+  padding: 15px 0 15px 15px;
+  width: 100%;
+  max-width: 380px;
+}
+
+.email::placeholder {
+  color: white;
+}
+
+.footer_p p{
+  cursor: pointer;
+  color: #929292;
+  padding-top: 5px;
+}
+
+.footer_p p:hover{
+  color: #ffffff;
+}
+
+.footer_span span{
+  margin-left: 5px;
+  cursor: pointer;
+  color: #929292;
+}
+
+.footer_span span:hover{
+  color: #ffffff;
+}
+
+
+
+.footer__arrowUp{
+  font-size: 30px;
+  width: 45px;
+  height: 45px;
+  border-radius: 3px;
+  background-color: #ffffff;
+  color: #0f7bff;
+  text-decoration: none;
+}
+
+.footer__arrowUp:hover{
+  text-decoration: none;
+}
+
